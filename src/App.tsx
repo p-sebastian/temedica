@@ -1,7 +1,13 @@
+import { NavigationContainer } from '@react-navigation/native'
 import React from 'react'
-import { SafeAreaView } from 'react-native'
+
+import { RootStack } from './navigation/Root.stack'
 
 const App = () => {
-  return <SafeAreaView></SafeAreaView>
+  return (
+    <NavigationContainer>
+      <RootStack />
+    </NavigationContainer>
+  )
 }
 export default App
