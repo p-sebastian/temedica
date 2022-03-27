@@ -1,5 +1,6 @@
 # temedica
 
+> Has ONLY been tested on iOS, although Android should work too.
 ### Steps
 * `yarn install`
 * `cd ios && pod install`
