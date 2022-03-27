@@ -5,7 +5,6 @@ export const SearchBarStyles = {
   Container: styled.View`
     background-color: white;
     border-radius: 4px;
-    padding-vertical: 4px;
     padding-horizontal: 8px;
     border-width: 1px;
     height: 40px;
