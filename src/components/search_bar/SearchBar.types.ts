@@ -1,3 +1,5 @@
 import { TextInputProps } from 'react-native'
 
-export type TSearchBarProps = TextInputProps
+export type TSearchBarProps = TextInputProps & {
+  onPress: () => void
+}

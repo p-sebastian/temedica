@@ -8,4 +8,4 @@ export const api = Object.freeze({
 })
 
 type TQueryProductsBody = { skip?: number; limit?: number; q?: string }
-type TQueryProductsResponse = { data: TProduct[] }
+type TQueryProductsResponse = { data: { products: TProduct[]; count: number } }

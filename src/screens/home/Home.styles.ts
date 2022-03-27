@@ -14,4 +14,23 @@ export const HomeStyles = {
   Divider: styled.View`
     height: 20px;
   `,
+
+  Text: styled.Text`
+    font-size: 14px;
+    margin-top: 20px;
+  `,
+
+  NoResult: styled.View`
+    padding: 20px;
+    border-width: 1px;
+    border-color: #f2e3bd;
+    justify-content: center;
+    align-items: center;
+    margin-horizontal: 20px;
+  `,
+
+  Warning: styled.Text`
+    font-size: 18px;
+    text-align: center;
+  `,
 }
